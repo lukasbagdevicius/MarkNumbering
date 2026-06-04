@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>Mark numeravimas pagal ilgį</Name>
+    <Assembly>MarkNumbering.dll</Assembly>
+    <AddInId>c0911483-29ab-4c86-b0d1-cfc509e7dd47</AddInId>
+    <FullClassName>MarkNumbering.NumberMarksCommand</FullClassName>
+    <Text>Mark numeravimas pagal ilgį</Text>
+    <Description>Sunumeruoja vienodą Mark turinčius pažymėtus elementus pagal Cut Length: trumpiausia grupė gauna 1 (STG1), ilgesnės - 2, 3 ir t. t. Vienodo ilgio elementai gauna tą patį numerį (tolerancija 0.1 mm).</Description>
+    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+    <VendorId>LUKAS</VendorId>
+    <VendorDescription>Lukas, sukurta su Claude</VendorDescription>
+  </AddIn>
+</RevitAddIns>
