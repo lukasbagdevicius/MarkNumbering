@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <Description>Mark numeravimas pagal Cut Length (Revit 2026)</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Revit 2026 API reference paketai (tik kompiliavimui; Revit pateikia tikras DLL vykdymo metu) -->
+    <PackageReference Include="Nice3point.Revit.Api.RevitAPI" Version="2026.*" />
+    <PackageReference Include="Nice3point.Revit.Api.RevitAPIUI" Version="2026.*" />
+  </ItemGroup>
+
+</Project>
